@@ -7,7 +7,7 @@ PageRank primarily ranks pages based on their popularity. Other variables like s
 ## Applicability of PageRank
 
 - **Usage within Search Engines:**  
-  *   Used to measure the relevance of web pages. Helping users find credible ranked information quickly.
+  *   Used to measure the relevance of web pages. Helping people find credible ranked information quickly.
 
 ## PageRank Vocabulary List:
 
