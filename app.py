@@ -24,7 +24,6 @@ def page_rank(transition_matrix, damping_factor=0.85, max_iter=100, tol=1e-6):
 
     for iteration in range(max_iter):
         # Computing the new rank vector using the PageRank formula:
-        # new_rank = (1-damping_factor)*teleport + damping_factor * transition_matrix.dot(rank)
         new_rank = (1 - damping_factor) * teleport + damping_factor * transition_matrix.dot(rank)
 
         # Checking convergence using the L1 norm between iterations
@@ -65,7 +64,7 @@ def construct_transition_matrix(link_matrix):
     return transition_matrix
 
 if __name__ == "__main__":
-    # data simulating 5 web pages:
+    # data simulation of 5 theoretical web pages:
     # - Page 1 links to Page 2 and Page 3.
     # - Page 2 links to Page 3.
     # - Page 3 links to Page 1.
