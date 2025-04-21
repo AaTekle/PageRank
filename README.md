@@ -1,5 +1,8 @@
 # PageRank Implementation
 
+Note: This implementatation is for learning purposes, I wrote this README to help refresh on this algorthim, since I just finished a Linear Algebra course via Coursera. (e.g. of LA components used within PageRank - Graph Representation, Stochastic Matrices, PageRank Vectors, Eigenvector Calculations, and Convergence)
+
+## Historical Context
 The PageRank algorithm was developed by Google to rank web pages in their search results, helping search engines rank web pages based on the structure of links between them. 
 
 PageRank primarily ranks pages based on their popularity. Other variables like similarity are not valued as much as popularity when thinking about rankings within this algorithm.
