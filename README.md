@@ -113,7 +113,7 @@ The link matrix in the code is setup to where each column corresponds to the out
 ## PageRank Scores Explained
 A score closer to 1 indicates that a page is more important within the network, while a score closer to 0 suggests a lower level of importance relative to the other pages.
 
-Here are the PageRank scores for each page in the network:
+Here are the PageRank scores for each page in my network:
 
 - **Page 1:** 0.3651  
 - **Page 2:** 0.2015  
